@@ -1,1 +1,1 @@
-def mergesort(arr):\n    return arr  # placeholder from master
+def mergesort(arr):\n    return sorted(arr)  # master branch version
