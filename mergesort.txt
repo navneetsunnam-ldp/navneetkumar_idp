@@ -1,1 +1,1 @@
-def mergesort(arr):\n    return arr  # placeholder from master
+def mergesort(arr):\n    # real implementation from branch\n    if len(arr) <= 1:\n        return arr\n    mid = len(arr)//2\n    left = mergesort(arr[:mid])\n    right = mergesort(arr[mid:])\n    return sorted(left + right)
