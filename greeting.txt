@@ -1,1 +1,1 @@
-GOOD MORNING
+Welcome to Basics of GIT
