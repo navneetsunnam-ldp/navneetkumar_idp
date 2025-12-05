@@ -1,0 +1,3 @@
+original
+This is staged
+This is unstaged
