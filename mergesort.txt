@@ -1,8 +1,1 @@
-def mergesort(arr):
-    # Combined recursive mergesort implementation
-    if len(arr) <= 1:
-        return arr
-    mid = len(arr)//2
-    left = mergesort(arr[:mid])
-    right = mergesort(arr[mid:])
-    return sorted(left + right)
+return sorted(arr)  # master branch version
